@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"  content="IE-edge">
+    <style>
+        body{ background: Gray; text-align: center;}
+    </style>
+    <meta name="author" content="Abdullah Waleed">
+    <title>Challenge_2</title>
+</head>
+
+<body>
+    <h1 style="color:aqua">Umm Al-Quar University</h1>
+    <hr>
+    <h2 >Please Enter Your Name:</h2>
+<form>
+   <input id="name" type="text" placeholder="Enter Your Name Here"> <br><br>
+   <button onclick="myName()">Say Welcome</button>
+</form>
+
+<script>
+    function myName() {
+        var name = document.getElementById('name').value;
+        alert("Welcom "+name+" to may website")
+    }
+</script>
+
+</body>
+</html>
